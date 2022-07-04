@@ -1,0 +1,91 @@
+table {
+  min-width: 60rem;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 20px 20px 20px 5px#a7bad3;
+  background-color: white;
+  text-align: left;
+}
+th {
+  background-color: #d0def2;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  font-size: 1.4vh;
+  font-weight: 900;
+}
+
+td {
+  padding: 1rem 1.4rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f8fe;
+}
+
+input {
+  padding: 5px;
+  margin: 0px;
+  font-size: 0.9rem;
+  border: none;
+}
+
+input:disabled {
+  background-color: transparent;
+}
+
+.table-input:enabled {
+  background-color: transparent;
+  border-bottom: 1px solid #d0def2;
+}
+
+form {
+  display: block;
+  align-items: center;
+}
+form input {
+  margin: 20px;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+.button {
+  margin-left: 10px;
+}
+.button:not(:last-child) {
+  margin-left: 1rem;
+}
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
